@@ -2,8 +2,10 @@ package day04_dataCasting;
 
 public class C04_ExplicitNarrowing {
     public static void main(String[] args) {
-        int sayı1=50;
-        short sayı2= (short) sayı1;
+        int sayi1 = 50;
+        byte sayi2 = (byte) sayi1;
+
+        System.out.println("sayi2 = " + sayi2);
         /*
         geniş data türündeki değeri, dar data türündeki variable a atamak isterseniz
         Java sizin geniş data türündeki değerin, dar data türünün
