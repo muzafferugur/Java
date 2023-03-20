@@ -2,7 +2,7 @@ package day13_RECAP;
 
 import java.util.Scanner;
 
-public class C01_tekrar {
+public class C01_Scanner {
     public static void main(String[] args) {
         /*
          kullaniciya ad, memleket,su anki konum, yas, boy soran bir program olusturun,
