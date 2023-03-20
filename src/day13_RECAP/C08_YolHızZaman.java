@@ -1,5 +1,7 @@
 package day13_RECAP;
 
+import java.util.Scanner;
+
 public class C08_YolHızZaman {
     public static void main(String[] args) {
 
@@ -13,7 +15,15 @@ public class C08_YolHızZaman {
         Süre 4 saattir.
         */
 
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Lutfen mesafeyi giriniz");
+        int mesafe=scan.nextInt();
 
+        System.out.println("lutfen hızı giriniz");
+        int hız=scan.nextInt();
 
+        double sure=(mesafe/hız);
+
+        System.out.print("Sure :"+sure);
     }
 }
