@@ -21,9 +21,9 @@ public class C02_Scanner {
         System.out.println("lütfen işçi sayısını giriniz");
         double isci=scan.nextDouble();
 
-        double isToplamBİtmeSursi=10/isci;
+        double isToplamBitmeSuresi=10/isci;
 
-        System.out.println("toplam işin bitme süresi :" + isToplamBİtmeSursi+" gün");
+        System.out.println("toplam işin bitme süresi :" + isToplamBitmeSuresi+" gün");
 
         /*
         Scanner scan = new Scanner(System.in);
