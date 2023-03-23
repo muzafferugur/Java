@@ -20,7 +20,7 @@ public class C04_ForLoop {
         for (int i = 1; i <=sayı ; i++) {
 
             if (i%3==0 && i%5==0){
-                System.out.print("java Guzeldır");
+                System.out.print("java Guzeldır"+ "\\n");
 
             } else if (i%5==0) {
                 System.out.print("Guzeldır");
