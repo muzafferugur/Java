@@ -17,6 +17,24 @@ public class C06_DoWhileLoop {
 
         Scanner scan=new Scanner(System.in);
         int sayı=0;
+        int pozSayıAdedi=0;
+        int negSayıAdedi=0;
+        int pozSayılarTop=0;
+
+        do {
+            System.out.println("lutfen toplamak uzere poz. tam sayı giriniz");
+            sayı= scan.nextInt();
+            if (sayı>0){
+                pozSayılarTop+=sayı;
+                pozSayıAdedi++;
+            } else if (sayı<0) {
+                negSayıAdedi++;
+                System.out.println("negatif sayı giremezsiniz");
+
+            }
+        }while (sayı!=0);
+        System.out.println(pozSayıAdedi+" adet poz. sayı girdiniz :"+pozSayılarTop);
+        System.out.println(negSayıAdedi + " adet negatif sayi girdiniz ancak onlar toplama dahil edilmedi");
 
     }
 }
