@@ -13,11 +13,7 @@ public class C04_ElemanlarıYazdırma {
         //Array'in tum elementlerini yazdiralim.
 
         for (int i = 0; i < sayilar.length; i++) {
-            if (i!= sayilar.length-1) {
-                System.out.println(sayilar[i] + " ");
-            }else {
-                System.out.println(sayilar[i]);
-            }
+            System.out.println(sayilar[i]+" ");
 
         }
 
