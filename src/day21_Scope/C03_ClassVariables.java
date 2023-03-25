@@ -35,5 +35,12 @@ public class C03_ClassVariables {
         System.out.println(obje1.isim);//mehmet
         System.out.println(obje1.değersizInstanceVariable);//0
 
+        System.out.println(C02_StaticVariables.staticSayı);//20
+
+        /*
+        Farklı bir classtan C02 clasından method ve variableleri kullandığımda
+        C02 clasının tamamı değil sadece benim çağırdığım class uyeleri calısır
+         */
+
     }
 }
