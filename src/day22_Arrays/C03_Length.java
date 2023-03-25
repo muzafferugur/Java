@@ -19,7 +19,7 @@ public class C03_Length {
         //harfler arrayinin son elementini yazdıralım
         System.out.println(harfler[harfler.length-1]);//null
 
-        System.out.println(harfler[5]);//.ArrayIndexOutOfBoundsException
+       // System.out.println(harfler[5]);//.ArrayIndexOutOfBoundsException
         //Array RunTime da oluşturulur dolayısıyla böyle bir durumda Syntax hatası vermez
 
     }
