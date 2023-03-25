@@ -15,5 +15,25 @@ public class C03_Contains {
         Scanner scan = new Scanner(System.in);
         System.out.print("Aradiginiz ismi yaziniz : ");
         String arananİsim = scan.nextLine();
+
+        boolean sonuc=contains(isimler,arananİsim);
+        if (sonuc){
+            System.out.println("girilen isim listede var");
+        }else System.out.println("girilen isim listede yok");
+    }
+
+    public static boolean contains(String[] isimler, String arananİsim) {
+        boolean sonucMethod=false;
+
+        for (int i = 0; i < isimler.length; i++) {
+
+            if (isimler[i].equalsIgnoreCase(arananİsim));
+            sonucMethod=true;
+
+
+        }
+
+        return sonucMethod;
+
     }
 }
