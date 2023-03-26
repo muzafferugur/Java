@@ -13,12 +13,13 @@ public class C05_MdaSonElemanlariCarpma {
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                if (j== arr.length-1){
+                if (j== arr[i].length-1){
                     carpım*=arr[i][j];
                 }
 
             }
-            System.out.println("Son elemanların çarpımı :"+carpım);
+
         }
+        System.out.println("Son elemanların çarpımı :"+carpım);
     }
 }
