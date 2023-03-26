@@ -23,6 +23,18 @@ public class C04_remove {
         System.out.println(urunler.remove("Hobby"));//false
         System.out.println(urunler);//[Nutella, Cekirdek, Cay]
 
+        //ikinci yöntemi deneyelim yani index girelim
+        System.out.println(urunler.remove(1));
+        System.out.println(urunler);//[Nutella,Cay]
+
+        /*
+         olmayan bir index'i silmeye calısırsak ?
+         System.out.println(urunler.remove(3)); // IndexOutOfBoundsException
+
+         */
+
+
+
 
     }
 }
