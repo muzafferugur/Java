@@ -16,5 +16,20 @@ public class C01_Lists {
         System.out.println(sayılar1);//[5, 3, 2, 2, 5, 3, 2, 2]
         System.out.println("Listenin yeni boyutu :"+sayılar1.size());
 
+        sayılar1.set(2,8);
+        System.out.println(sayılar1);//[5, 3, 8, 2, 5, 3, 2, 2]
+        System.out.println(sayılar1.set(0,12));//5
+        System.out.println(sayılar1);//[12, 3, 8, 2, 5, 3, 2, 2]
+
+        /*
+        set methodu istenen index deki eski elementi silip yerine verdiğimiz
+        yeni elementi set eder.
+
+        eğer eski elementi silmek istemiyorsak
+        add(index,değer) methodunu kullanabiliriz.
+
+        set() methodu sildiği eski elementi de bize döndürür
+         */
+
     }
 }
