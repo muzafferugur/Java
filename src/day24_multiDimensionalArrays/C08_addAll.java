@@ -23,6 +23,8 @@ public class C08_addAll {
         sayılar1.addAll(1,sayılar2);
         System.out.println(sayılar1);//[5, 10, 15, 16, 20, 3, 2, 10, 15, 16, 20]
 
-        //
+        //bir listenin sonuna veya istediğimiz bir indexine
+        //baska bir collection ekleyebiliriz
+
     }
 }
