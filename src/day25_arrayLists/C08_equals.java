@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class C07_sort {
+public class C08_equals {
     public static void main(String[] args) {
         List<String> urunler = new ArrayList<String>();
         urunler.add("Nutella");
@@ -12,13 +12,17 @@ public class C07_sort {
         urunler.add("Cekirdek");
         urunler.add("Cay");
 
-        Collections.sort(urunler);
-        System.out.println(urunler);//[Cay, Cekirdek, Ikram, Nutella]
 
-        /*
-        Liste ile gelen sort method'unda siralama ozelligini bilmmek gerekiyor.
-        Bunun yerine Collections class'indan sort method'unu kullaniyoruz.
-        bu method listemizi natural order'a gore siralar.
-         */
+        List<String> urunler2 = new ArrayList<String>();
+        urunler2.add("Ikram");
+        urunler2.add("Nutella");
+        urunler2.add("Cay");
+        urunler2.add("Cekirdek");
+
+        System.out.println(urunler.equals(urunler2)); // false
+
+        Collections.sort(urunler);
+        Collections.sort(urunler2);
+        System.out.println(urunler.equals(urunler2)); // true
     }
 }
