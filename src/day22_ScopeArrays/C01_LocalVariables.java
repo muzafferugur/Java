@@ -1,4 +1,4 @@
-package day22_Arrays;
+package day22_ScopeArrays;
 
 public class C01_LocalVariables {
     public static void main(String[] args) {

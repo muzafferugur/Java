@@ -1,4 +1,4 @@
-package day22_Arrays;
+package day22_ScopeArrays;
 
 import java.util.Arrays;
 
