@@ -9,6 +9,15 @@ public class C02_StringHavuzu {
         String str4=str1.concat(hiclik);
 
         System.out.println(str1==str2);//false
+        System.out.println(str1.equals(str2));//true
+
+        System.out.println(str1.equals(str3));//true
+        System.out.println(str1==str3);//false
+
+        System.out.println(str2.equals(str4));//true
+        System.out.println(str2==str4);//false
+
+
 
     }
 }
