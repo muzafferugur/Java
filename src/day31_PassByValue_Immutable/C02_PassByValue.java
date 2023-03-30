@@ -1,4 +1,4 @@
-package day31_PassByValueImmutable;
+package day31_PassByValue_Immutable;
 
 import java.util.Arrays;
 import java.util.Random;
