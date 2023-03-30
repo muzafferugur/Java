@@ -5,10 +5,10 @@ public class c05_Immutable {
         String isim = "Mine";
 
         isim = isim.toUpperCase();
-        System.out.println(isim); // MINE
+        System.out.println(isim); //MINE
 
         isim = "Mevlüt";
-        System.out.println(isim); // Mevlüt
+        System.out.println(isim); //Mevlüt
 
         for (int i = 0; i < 100; i++) {
             isim+=".";
