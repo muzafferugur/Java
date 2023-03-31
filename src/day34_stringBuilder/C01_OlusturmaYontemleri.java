@@ -27,5 +27,10 @@ public class C01_OlusturmaYontemleri {
         System.out.println("sb1.length() = " + sb1.length()); // 25
         System.out.println("sb1.capacity() = " + sb1.capacity()); // 34 (oldcapacity*2)+2.
 
+        StringBuilder sb4=new StringBuilder();
+        sb4.append("Java Candir");
+
+        System.out.println(sb4.length());//11
+        System.out.println(sb4.capacity());//16
     }
 }
