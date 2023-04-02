@@ -18,24 +18,24 @@ public class Child extends BParents{
         child1.parentKlupAdi="Child2";
 
 
-        //child1 objesii için Child const. calısır
-        /*
-        Javada bir class ı kullanabilmek için
-        o class dan obje olusturur dolayısıyla o classın const. kullanırdık
+        /* child1 objesi icin Child constructor calisir.
+            --> Java'da bir class'i kullanabilmek icin o clas'dan obje olusturur,
+            doalyisiyla o class'in constructor'ini kullanirdik.
 
-        Java inth parent class lardaki özelllikleri kullanabilmek için
-         o classların con. otomatik calsıtıran bir yapı kullanmaktadır
+            --> Java inheritance'da parent class'lardaki ozellikleri kullanabilmek
+            icin o class'larin constructor'larini otomatik calistiran bir yapi kurmuştur.
 
-         örneğin biz child classında
-         Child classından bir obje oluşturmak istediğimizde
-         child cons. kulllanırız
+            --> Ornegin biz child class'indan bşr obje olusturmak istedigimizde child
+            constructor'ini kullaniriz.
 
-         Java Child(){} gorduğunde once parentın const. çalıstırmam lazım der
-         buradan parent cons a gider
-         Parent classında Parent(){} gorunce
-         once bunun parentının yani grandpa const. calısması gerekir der.
+            --> Java child(){} gordugunde once parent'in constructor'ini calistirmam
+            lazım der. buradan Parent constructor'a gider.
 
+            --> Parent class'inda Parent () {} gorunce once bunun parent'inin yani
+            GrandParent constructor calismasi gerekir der.
 
+            --> Boylece extends keyword olmayan class'a kadar gider ve oradan baslayarak
+            tum constructorlari asagi dogru calistirir.
          */
 
     }
