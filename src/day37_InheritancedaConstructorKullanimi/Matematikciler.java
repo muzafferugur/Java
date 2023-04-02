@@ -30,9 +30,9 @@ public class Matematikciler extends LOgretmen {
         this() veya super() parametre yapısına uygun cons bulamazsa
         Java CTE verir
 
-        constructor konusunda gördüğümüz this. o class daki instance variableleri refere eder
+        constructor konusunda gördüğümüz "this." o class daki instance variableleri refere eder
 
-        super. parent classdaki instance variableleri refere eder
+        "super." parent classdaki instance variableleri refere eder
          */
     }
 
