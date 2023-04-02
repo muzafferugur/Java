@@ -1,5 +1,7 @@
 package day38_İnheritqnceDataTypeKullanimi;
 
+import java.util.*;
+
 public class DIsci extends BMuhasebe{
 
     protected int saatUcreti = 11;
@@ -43,6 +45,32 @@ public class DIsci extends BMuhasebe{
         APersonel isc2=new DIsci();//yeni bir işçi oluşturuyoruz bu sefer Apersonel classından
         //işçinin personel classından hakkettiği tüm haklarla birlikte oradaki özellikleri kullanarak başlıyoruz aramaya
 
+
+        // System.out.println(isc2.gunlukMesai);  // M 8
+        // System.out.println(isc2.saatucreti); // M 10
+        // isc2.ozelSigorta(); // M --> Isteyen calisanlara %50 indirimli ozel sigorta yapilir.
+        isc2.sigorta(); // Personel
+        System.out.println(isc2.isim); // Personel
+        System.out.println(isc2.soyisim); // Personel
+        System.out.println(isc2.departmant); // Personel
+
+        /*
+        --> Eger data turu olan class'da aradigimiz ozellik yoksa
+        child a dönüş olmaz Java CTE verir
+       ama varsa onun parent'ina gidebilir.
+
+        --> Aradigi ozelligi bulamazsa CTE verir
+         */
+
+        List<String> list1 = new LinkedList<>();
+        Deque<String> list2 = new LinkedList<>();
+        Queue<String> list3 = new LinkedList<>();
+        /*
+        Hepsi LinkedList olsa da;
+        list1 --> list gibi davranir
+        list2 --> Deque gibi davranir
+        list3 --> Queue gibi davranir
+         */
 
 
 
