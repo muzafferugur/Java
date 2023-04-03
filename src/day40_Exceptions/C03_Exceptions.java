@@ -14,12 +14,16 @@ public class C03_Exceptions {
         String[] urunler={"Nutella", "Cokokrem", "Sut", "Cay", "Fındık"};
         Scanner scan=new Scanner(System.in);
         System.out.println("Istediginiz urunun sıra nosunu giriniz :");
+        int istenenSıra=0;
+
+
         try {
-            int istenenIndex = scan.nextInt();
+            istenenSıra = scan.nextInt();
         } catch (InputMismatchException deneme) {
 
             System.out.println("hata mesajı :"+deneme.getMessage());
             //deneme.printStackTrace();-->kırmızı kodlu hata mesajını yazar
+            System.out.println(deneme);//java.util.InputMismatchException
          /*
             1. TRY KISMI: yapilmak istenen islem.
             2. Cath in önündeki parantez:Yakalanmasi istenen EXCEPTION turu ve yakalaninca icine konacak obje.
@@ -38,6 +42,13 @@ public class C03_Exceptions {
         Eger exception ile ilgili kullaniciya bilgi verme ihtiyaci yoksa (e) kullanilmasa
         da kod calisir.
          */
-        System.out.println("program çalısmaya devam ediyor");
+        //System.out.println("program çalısmaya devam ediyor");
+        try {
+            System.out.println("Aradığınız ürün no : "+urunler[istenenSıra-1]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Girdiğiniz sıra listemizde bulunmuyor"+
+                    "\nSıra no en fazla :"+(urunler.length)+" olabilir");
+
+        }
     }
 }
