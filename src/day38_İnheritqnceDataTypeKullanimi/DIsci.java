@@ -49,6 +49,10 @@ public class DIsci extends BMuhasebe{
         // System.out.println(isc2.gunlukMesai);  // M 8
         // System.out.println(isc2.saatucreti); // M 10
         // isc2.ozelSigorta(); // M --> Isteyen calisanlara %50 indirimli ozel sigorta yapilir.
+        isc2.maas();//personel classından aramaya baslar orada maas methodu var fakat
+        // override edilmişmi diye bakar ve Muhasebe classında override edildiğini
+        // görür onu yazdırır(isci classında ismi artık maasişci olduğu için orada override olmaz)
+
         isc2.sigorta(); // Personel
         System.out.println(isc2.isim); // Personel
         System.out.println(isc2.soyisim); // Personel
