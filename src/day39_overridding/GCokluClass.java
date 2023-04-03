@@ -13,4 +13,6 @@ class ikinciClass{
      */
 }
 
-class ucuncuClass{}
+class ucuncuClass{
+
+}
