@@ -1,4 +1,4 @@
-package day42_Exception;
+package day42_Final;
 
 public class A {
 

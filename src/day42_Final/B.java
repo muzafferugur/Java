@@ -1,4 +1,4 @@
-package day42_Exception;
+package day42_Final;
 
 public class B extends A{
     public static void main(String[] args) {
