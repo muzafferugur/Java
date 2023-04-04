@@ -26,7 +26,7 @@ public class C02_IcIceTryCatch {
             birden fazla bir birine bağlı exception beklediğimizde try-catch yonteminde
             önce child exception sonra parent exception yazılır
             önce parent yazılırsa en kapsayıcı olduğundan child a gerek kalmaz ve
-            child ı sonraya yazmak istersek hatalı olur
+            child ı sonraya yazmak istersek hatalı olur(CTE)
 
             birbirinden bağımsız exceptionlar beklediğimizde istediğimiz sırayla yazabiliriz
 
