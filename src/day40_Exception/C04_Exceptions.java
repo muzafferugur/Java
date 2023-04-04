@@ -1,4 +1,4 @@
-package day40_Exceptions;
+package day40_Exception;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -14,13 +14,13 @@ public class C04_Exceptions {
 
         Scanner scan;
         System.out.print("Istediginiz urunun sıra nosunu giriniz : ");
-        int istenenIndex = 0;
+        int istenenSıra = 0;
         boolean kontrol = true;
 
         while (kontrol) {
             try {
                 scan = new Scanner(System.in);
-                istenenIndex = scan.nextInt();
+                istenenSıra = scan.nextInt();
                 kontrol = false;
             } catch (InputMismatchException e) {
                 System.out.println("Urun indexi icin bir tam sayi girmeniz gerekli");
@@ -29,7 +29,7 @@ public class C04_Exceptions {
         }
 
         try {
-            System.out.println("Aradıgınız urun : " + urunler[istenenIndex]);
+            System.out.println("Aradıgınız urun : " + urunler[istenenSıra]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Girdiginiz index listemizde bulunmuyor" +
                     "\nsıra numarasi en fazla : " + (urunler.length) + " olabilir");
