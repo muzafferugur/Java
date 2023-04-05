@@ -1,4 +1,12 @@
 package day43_Abstract_Interface;
 
-public class KBmw {
+public abstract class KBmw extends DAraba{
+
+    /*
+    Bmw abstract bir class'in abstract bir child'i oldugu icin
+    parent class'daki abstract method'lari implement etmek ZORUNDA KALMADI.
+     */
+
+    public abstract void amblem();
+    public abstract void guvenlik();
 }

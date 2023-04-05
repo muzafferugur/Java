@@ -1,4 +1,4 @@
-package day38_İnheritqnceDataTypeKullanimi;
+package day38_İnheritanceDataTypeKullanimi;
 
 public class APersonel {
 
