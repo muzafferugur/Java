@@ -30,6 +30,7 @@ public interface I01_InterfacesBodyOlanMethod {
 
     Buradaki default kelimesi access modifier degil istisnai durumun belirtilmesi icindir.
     O zaman nicin 2 keywordd (static ve default) tanimlanmistir?
+
     Bu iki farkli kelimenin amaci child class'lardan bu method'a nasil erisebilecegini
     belirlemek icindir.
 
