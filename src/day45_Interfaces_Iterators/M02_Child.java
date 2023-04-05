@@ -1,6 +1,6 @@
 package day45_Interfaces_Iterators;
 
-public class C02_Child implements I01_InterfacesBodyOlanMethod{
+public class M02_Child implements I01_InterfacesBodyOlanMethod{
     @Override
     public void motor() {
 
@@ -30,13 +30,14 @@ public class C02_Child implements I01_InterfacesBodyOlanMethod{
 
     static keyword kullanilirsa, child class'dan bu method'a erismek icin
     InterfaceAdi.methodAdi yeterli olur
-    default keyword kullanilirsa, method'a erismek icin obje olusturulmalidir.
+
+    default keyword kullanilirsa, method'a erismek icin OBJE olusturulmalidir.
      */
 
     public static void main(String[] args) {
-        I01_InterfacesBodyOlanMethod.direksiyon();
+        I01_InterfacesBodyOlanMethod.direksiyon();//STATİC
 
-        C02_Child obj=new C02_Child();
+        M02_Child obj=new M02_Child();//DEFAULT
         obj.teker();
     }
 }
