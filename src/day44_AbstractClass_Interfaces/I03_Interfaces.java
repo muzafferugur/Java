@@ -14,6 +14,7 @@ public interface I03_Interfaces {
     /*
     Interface icerisindeki her method public abstract ozelliklerine sahiptir.
     abstract bir method'un body'si olmasi mumkun degildir.
+    (PUBLİC VE ABSTRACT ÖZELLİKLERE SAHİPTİR.)
 
     Java sonradan devoloper'larin istegi uzerine kısmi bir uptade yapmistir.
     Bir ınterface'e sonradan bir abstract method eklerseniz o ınterface'i daha once
