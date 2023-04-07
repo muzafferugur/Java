@@ -1,4 +1,4 @@
-package day46_collections;
+package day46_Iterators_Collections;
 
 import java.util.Deque;
 import java.util.LinkedList;
