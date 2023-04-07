@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 
-public class C03_ListIteratörHocaÇözmedi {
+public class C03_ListIteratörHocaÇözmedigisoru5 {
     public static void main(String[] args) {
         /*
        (literatör ile index kullanımına örnek) bir listdeki ilk n elemanı iteratör kullanarak 5 artırın
