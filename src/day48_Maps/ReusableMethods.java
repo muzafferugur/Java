@@ -1,9 +1,6 @@
 package day48_Maps;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ReusableMethods {
     public static Map<Integer,String> mapOlustur(){
@@ -44,8 +41,46 @@ public class ReusableMethods {
     }
 
     public static void tumValueSiraaliYazdir(Map<Integer, String> sinifListMap) {
+
+
     }
 
-    public static void bransOgrencisoyisiYazdir(Map<Integer, String> sinifListMap) {
+    public static void bransOgrenciSayisiYazdir(Map<Integer, String> sinifListMap) {
+        //brans=bransOgrencisayisi
+        Map<String,Integer> bransOgrSayiMap=new TreeMap<>();
+        Collection<String> valuesCollection=sinifListMap.values();
+        String[] valueArr;
+        String brans;
+        Integer bransdakiOgrSayisi;
+
+
+        for (String each:valuesCollection
+             ) {
+
+            valueArr=each.split(", ");
+            brans=valueArr[2];
+
+
+            //bransin bransOgrSayiMap'inde key olarak daha önceden eklenip eklenmediğini
+            //kontrol etmeliyiz
+
+            if (!bransOgrSayiMap.containsKey(brans)) {
+                bransOgrSayiMap.put(brans, 1);
+            } else {
+                bransdakiOgrSayisi = bransOgrSayiMap.get(brans);
+                bransOgrSayiMap.put(brans, ++bransdakiOgrSayisi);
+            }
+
+        }
+        System.out.println(bransOgrSayiMap);
+    }
+    public static void entryYazdir(Map<Integer, String> sinifListMap) {
+
+        Set<Map.Entry<Integer, String>> sinifListEntrySeti = sinifListMap.entrySet();
+
+        for (Map.Entry<Integer, String> entry : sinifListEntrySeti) {
+            System.out.println(entry);
+
+        }
     }
 }

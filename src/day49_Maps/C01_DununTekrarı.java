@@ -18,7 +18,7 @@ public class C01_DununTekrarı {
 
         //Kac farkli brans varsa bransIsmi = branstakiOgrencisoyisi seklinde yazdirin
 
-        ReusableMethods.bransOgrencisoyisiYazdir(sinifListMap);
+        ReusableMethods.bransOgrenciSayisiYazdir(sinifListMap);
 
     }
 }
