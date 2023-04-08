@@ -33,12 +33,13 @@ public class C02_TekrarSayisiBulma {
                 harfKullanimsayilariMap.put(each,1);
             }else{
                 harfKullanimsayisi=harfKullanimsayilariMap.get(each);
+                harfKullanimsayilariMap.put(each, ++harfKullanimsayisi);
             }
 
 
 
         }
 
-            System.out.println(harfKullanimsayilariMap);//{r=1, d=1, e=1, W=1, H=1, l=1, o=1}
+            System.out.println(harfKullanimsayilariMap);//{r=4, d=5, e=5, W=1, H=1, l=10, o=9}
     }
 }
