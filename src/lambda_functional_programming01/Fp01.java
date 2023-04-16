@@ -42,6 +42,7 @@ public class Fp01 {
         tekrarsizTekElemanlarinKupunuYazdir(liste);
         System.out.println();
         tekrarsizCiftElemanlarinKareToplami(liste);
+        System.out.println();
 
     }
 
